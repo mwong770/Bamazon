@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "\"An Amazon-like storefront node app using MySQL and multiple npm packages (mysql, cli-table, prompt)\"",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwong770/Bamazon.git"
+  },
+  "author": "Maria Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwong770/Bamazon/issues"
+  },
+  "homepage": "https://github.com/mwong770/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  }
+}
