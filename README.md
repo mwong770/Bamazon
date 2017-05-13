@@ -20,7 +20,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 - [:computer: Technologies Used](#technologies-used)
 - [:email: Questions or Comments](#questions-or-comments)
 
-## :dvd: Installation
+:dvd: ##Installation
 
 * Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
 * Clone the Bamazon repository to your local computer.
@@ -38,14 +38,14 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Uncomment out the database. (You'll need to connect to the database later.)
 * Now that you are connected to MySQL Workbench, run bamazonSchema.sql to create the database and tables, then bamazonSeeds.sql to populate the tables.
 
-## :crystal_ball: Usage
+:crystal_ball: ## Usage
 
 * Run bamazonCustomer.js to see the customer view.
 * Run bamazonManager.js to see the manager view.
 * Run bamazonSupervisor.js to see the supervisor view.
 
 
-## :credit_card: Customer View
+:credit_card: ## Customer View
 
 
 **When bamazonCustomer.js is first run...**
