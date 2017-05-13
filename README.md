@@ -11,7 +11,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## Table of Contents
 
-- [:minidisc: Installation](#installation)
+- [:dvd: Installation](#installation)
 - [:bar_chart: MySQL Configuration](#mysql-configuration)
 - [:smile: Usage](#usage)
 - [:credit_card: Customer View](#customer-view)
@@ -20,7 +20,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 - [:computer: Technologies Used](#technologies-used)
 - [:email: Questions or Comments](#questions-or-comments)
 
-## :minidisc: Installation
+## :dvd: Installation
 
 * Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
 * Clone the Bamazon repository to your local computer.
