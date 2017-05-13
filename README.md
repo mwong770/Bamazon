@@ -9,18 +9,24 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
  - Supervisors can view product sales by department or create new departments. (bamazonSupervisor.js)
 
-<dl>
-	<dt>## Table of Contents</dt>
+## Table of Contents
 
-		<dd>[:dvd: Installation](#installation)</dd>
-		<dd>[:bar_chart: MySQL Configuration](#mysql-configuration)</dd>
-		<dd>[:crystal_ball: Usage](#usage)</dd>
-		<dd>[:credit_card: Customer View](#customer-view)</dd>
-		<dd>[:ledger: Manager View](#manager-view)</dd>
-		<dd>[:briefcase: Supervisor View](#supervisor-view)</dd>
-		<dd>[:computer: Technologies Used](#technologies-used)</dd>
-		<dd>[:email: Questions or Comments](#questions-or-comments)</dd>
-</dl>
+	[:dvd: Installation](#installation)
+
+	[:bar_chart: MySQL Configuration](#mysql-configuration)
+
+	[:crystal_ball: Usage](#usage)
+
+	[:credit_card: Customer View](#customer-view)
+	
+	[:ledger: Manager View](#manager-view)
+	
+	[:briefcase: Supervisor View](#supervisor-view)
+	
+	[:computer: Technologies Used](#technologies-used)
+	
+	[:email: Questions or Comments](#questions-or-comments)
+
 
 ## :dvd: Installation <a name="installation"></a>
 
