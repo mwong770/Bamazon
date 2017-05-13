@@ -35,7 +35,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * On your terminal, navigate to the folder where the repository is located.
 * Run the command `npm install` to download all required dependencies.
 
-## :bar_chart: MySQL Configuration <a name="mysql-configuration"></a>
+## <a name="mysql-configuration"></a> :bar_chart: MySQL Configuration 
 
 * In bamazonCustomer.js, find the following code. 
 
@@ -46,7 +46,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Uncomment out the database. (You'll need to connect to the database later.)
 * Now that you are connected to MySQL Workbench, run bamazonSchema.sql to create the database and tables, then bamazonSeeds.sql to populate the tables.
 
-## :crystal_ball: Usage <a name="usage"></a>
+## <a name="usage"></a> :crystal_ball: Usage 
 
 * Run bamazonCustomer.js to see the customer view.
 * Run bamazonManager.js to see the manager view.
@@ -86,7 +86,7 @@ a thank you message is displayed.
 ![database setup](/screenshots/Complete_Order.png)
 
 
-## :ledger: Manager View <a name="manager-view"></a>
+## <a name="manager-view"></a> :ledger: Manager View 
 
 
 **When bamazonManager.js is first run...**
@@ -131,7 +131,7 @@ the application is disconnected.
 ![database setup](/screenshots/Exit_App.png)
 
 
-## :briefcase: Supervisor View <a name="supervisor-view"></a>
+## <a name="supervisor-view"></a> :briefcase: Supervisor View 
 
 **When bamazonSupervisor.js is first run...**
 the user is prompted to choose from a list of actions.
@@ -163,7 +163,7 @@ the application is disconnected.
 ![database setup](/screenshots/Exit_App2.png)
 
 
-## :computer: Technologies Used <a name="technologies-used"></a>
+## <a name="technologies-used"></a> :computer: Technologies Used 
 
 * Node.js
 * MySQL
@@ -177,7 +177,7 @@ the application is disconnected.
 	* [cli-table](https://www.npmjs.com/package/cli-table) 
 	* [colors](https://www.npmjs.com/package/colors) 
 
-## :email: Questions or Comments <a name="questions-or-comments"></a>
+## <a name="questions-or-comments"></a> :email: Questions or Comments 
 
 If you have any questions or comments, feel free to message me on [LinkedIn](https://www.linkedin.com/in/maria-wong-116119113/).
 
