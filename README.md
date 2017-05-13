@@ -7,27 +7,27 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
  - Managers can view all or low inventory products for sale, add new products, or add units to existing products. (bamazonManager.js)
 
- - Supervisors can view product sales by department or create new departments. (bamazonSupervisor)
+ - Supervisors can view product sales by department or create new departments. (bamazonSupervisor.js)
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [MySQL Configuration](#mysql-configuration)
-- [Usage](#usage)
-- [Customer View](#customer-view)
-- [Manager View](#manager-view)
-- [Supervisor View](#supervisor-view)
-- [Technologies Used](#technologies-used)
-- [Questions or Comments](#questions-or-comments)
+- [:minidisc: Installation](#installation)
+- [:bar_chart: MySQL Configuration](#mysql-configuration)
+- [:smile: Usage](#usage)
+- [:credit_card: Customer View](#customer-view)
+- [:clipboard: Manager View](#manager-view)
+- [:briefcase: Supervisor View](#supervisor-view)
+- [:computer: Technologies Used](#technologies-used)
+- [:email: Questions or Comments](#questions-or-comments)
 
-## Installation
+## :minidisc: Installation
 
 * Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
 * Clone the Bamazon repository to your local computer.
 * On your terminal, navigate to the folder where the repository is located.
 * Run the command `npm install` to download all required dependencies.
 
-## MySQL Configuration
+## :bar_chart: MySQL Configuration
 
 * In bamazonCustomer.js, find the following code. 
 
@@ -38,18 +38,30 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Uncomment out the database. (You'll need to connect to the database later.)
 * Now that you are connected to MySQL Workbench, run bamazonSchema.sql to create the database and tables, then bamazonSeeds.sql to populate the tables.
 
-## Usage
+## :smile: Usage
 
 * Run bamazonCustomer.js to see the customer view.
 * Run bamazonManager.js to see the manager view.
 * Run bamazonSupervisor.js to see the supervisor view.
 
-## Customer View
-## Manager View
-## Supervisor View
+## :credit_card: Customer View
 
 
-## Technologies Used
+
+
+
+## :clipboard: Manager View
+
+
+
+
+
+## :briefcase: Supervisor View 
+
+
+
+
+## :computer: Technologies Used
 
 * Node.js
 * MySQL
@@ -63,7 +75,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 	* [cli-table](https://www.npmjs.com/package/cli-table) 
 	* [colors](https://www.npmjs.com/package/colors) 
 
-## Questions or Comments
+## :email: Questions or Comments
 
 If you have any questions or comments, feel free to message me on [LinkedIn](https://www.linkedin.com/in/maria-wong-116119113/).
 
