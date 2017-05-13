@@ -11,21 +11,21 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## Table of Contents
 
-	[:dvd: Installation](#installation)
+[:dvd: Installation](#installation)
 
-	[:bar_chart: MySQL Configuration](#mysql-configuration)
+[:bar_chart: MySQL Configuration](#mysql-configuration)
 
-	[:crystal_ball: Usage](#usage)
+[:crystal_ball: Usage](#usage)
 
-	[:credit_card: Customer View](#customer-view)
+[:credit_card: Customer View](#customer-view)
 	
-	[:ledger: Manager View](#manager-view)
+[:ledger: Manager View](#manager-view)
 	
-	[:briefcase: Supervisor View](#supervisor-view)
+[:briefcase: Supervisor View](#supervisor-view)
 	
-	[:computer: Technologies Used](#technologies-used)
+[:computer: Technologies Used](#technologies-used)
 	
-	[:email: Questions or Comments](#questions-or-comments)
+[:email: Questions or Comments](#questions-or-comments)
 
 
 ## :dvd: Installation <a name="installation"></a>
