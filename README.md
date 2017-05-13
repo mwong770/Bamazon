@@ -46,6 +46,31 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## :credit_card: Customer View
 
+**When bamazonCustomer.js is first run...**
+a table of all items for sale is displayed and the user is prompted to choose an item to purchase.
+
+![database setup](/screenshots/Welcome_to_Bamazon.png)
+
+**If the user selects an item id or quantity that does not exist ...**
+the user is prompted to enter the id again, enter the quantity again (if they selected 0 or less), or the number of items available is displayed and they are prompted to try ordering again (if the quantity was greater than available).
+
+![database setup](/screenshots/Too_Much_Too_Little.png)
+
+**After the user inputs purchase choices that are available...**
+the total cost is displayed and the user is asked if they'd like to make another purchase.
+
+![database setup](/screenshots/Purchase_Item.png)
+
+**If the user types yes...**
+a table of all items for sale is displayed and the user is prompted to choose another item to purchase.
+
+![database setup](/screenshots/Return_To_Items.png)
+
+**If the user types no...**
+a thank you message is displayed.
+
+![database setup](/screenshots/Complete_Order.png)
+
 
 
 
