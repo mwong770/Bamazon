@@ -11,23 +11,23 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## Table of Contents
 
-- [:dvd: Installation](#installation)
-- [:bar_chart: MySQL Configuration](#mysql-configuration)
-- [:crystal_ball: Usage](#usage)
-- [:credit_card: Customer View](#customer-view)
-- [:ledger: Manager View](#manager-view)
-- [:briefcase: Supervisor View](#supervisor-view)
-- [:computer: Technologies Used](#technologies-used)
-- [:email: Questions or Comments](#questions-or-comments)
+[:dvd: Installation](#installation)
+[:bar_chart: MySQL Configuration](#mysql-configuration)
+[:crystal_ball: Usage](#usage)
+[:credit_card: Customer View](#customer-view)
+[:ledger: Manager View](#manager-view)
+[:briefcase: Supervisor View](#supervisor-view)
+[:computer: Technologies Used](#technologies-used)
+[:email: Questions or Comments](#questions-or-comments)
 
-:dvd: ##Installation
+## :dvd: Installation <a name="installation"></a>
 
 * Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
 * Clone the Bamazon repository to your local computer.
 * On your terminal, navigate to the folder where the repository is located.
 * Run the command `npm install` to download all required dependencies.
 
-## :bar_chart: MySQL Configuration
+## :bar_chart: MySQL Configuration <a name="mysql-configuration"></a>
 
 * In bamazonCustomer.js, find the following code. 
 
@@ -38,14 +38,14 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Uncomment out the database. (You'll need to connect to the database later.)
 * Now that you are connected to MySQL Workbench, run bamazonSchema.sql to create the database and tables, then bamazonSeeds.sql to populate the tables.
 
-:crystal_ball: ## Usage
+## :crystal_ball: Usage <a name="usage"></a>
 
 * Run bamazonCustomer.js to see the customer view.
 * Run bamazonManager.js to see the manager view.
 * Run bamazonSupervisor.js to see the supervisor view.
 
 
-:credit_card: ## Customer View
+## :credit_card: Customer View <a name="customer-view"></a>
 
 
 **When bamazonCustomer.js is first run...**
@@ -78,7 +78,7 @@ a thank you message is displayed.
 ![database setup](/screenshots/Complete_Order.png)
 
 
-## :ledger: Manager View
+## :ledger: Manager View <a name="manager-view"></a>
 
 
 **When bamazonManager.js is first run...**
@@ -123,7 +123,7 @@ the application is disconnected.
 ![database setup](/screenshots/Exit_App.png)
 
 
-## :briefcase: Supervisor View 
+## :briefcase: Supervisor View <a name="supervisor-view"></a>
 
 **When bamazonSupervisor.js is first run...**
 the user is prompted to choose from a list of actions.
@@ -155,7 +155,7 @@ the application is disconnected.
 ![database setup](/screenshots/Exit_App2.png)
 
 
-## :computer: Technologies Used
+## :computer: Technologies Used <a name="technologies-used"></a>
 
 * Node.js
 * MySQL
@@ -169,7 +169,7 @@ the application is disconnected.
 	* [cli-table](https://www.npmjs.com/package/cli-table) 
 	* [colors](https://www.npmjs.com/package/colors) 
 
-## :email: Questions or Comments
+## :email: Questions or Comments <a name="questions-or-comments"></a>
 
 If you have any questions or comments, feel free to message me on [LinkedIn](https://www.linkedin.com/in/maria-wong-116119113/).
 
