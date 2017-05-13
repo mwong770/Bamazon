@@ -71,35 +71,42 @@ a thank you message is displayed.
 
 ![database setup](/screenshots/Complete_Order.png)
 
-
-
-
-
 ## :ledger: Manager View
 
 **When bamazonManager.js is first run...**
-prompted to choose an action from a menu
+the user is prompted to choose from a list of actions.
+
 ![database setup](/screenshots/Manager_Welcome.png)
  
 **If the user selects View Products For Sale...**
+a table of all products for sale with prices and quantities is displayed.
+
 ![database setup](/screenshots/View_Products_For_Sale.png) 
 
 **If the user selects View Low Inventory...**
+a table of all products with less than 5 items available with prices and quantities is displayed.
+
 ![database setup](/screenshots/View_Low_Inventory.png)
 
 **If the user selects Add To Inventory...**
+the user is prompted to enter the number of units to add to an item. If that item does not exit, the user is asked to enter a different item number. After adding inventory, the user is asked if her/she would like to add more inventory. If the user types yes, the user is asked to enter the number of units to add to the item. 
+
 ![database setup](/screenshots/Add_To_Inventory.png)
 
 **If the user types No...**
+the user is prompted to choose a new action. 
+
 ![database setup](/screenshots/Do_Not_Add_Units.png)
 
 **If the user selects Add New Product...**
+the user is prompted to enter a description of the item to add, as well as the item's department, price, and quantity. After adding the product, the user is asked if her/she would like to add another product. If the user types yes, the user is asked for the new product's information. If the user types no, the user is prompted to choose a new action.  
+
 ![database setup](/screenshots/Add_New_Product.png)
 
 **If the user selects Exit App...**
+the application is disconnected.
+
 ![database setup](/screenshots/Exit_App.png)
-
-
 
 ## :briefcase: Supervisor View 
 
@@ -115,16 +122,18 @@ a table of products for sale is displayed showing the the costs and profits of e
 
 **If the user selects Create New Dept...** 
 the user is prompted to enter the department name and department overhead cost, then the user is asked if they'd like to enter a new department. If the user types yes, they are asked for the new department information. 
+
 ![database setup](/screenshots/Create_New_Dept.png)
 
 **If the user types no...**
-the user is prompted to choose from a list of actions. 
+the user is prompted to choose a new action. 
+
 ![database setup](/screenshots/No_New_Dept.png)
 
 **If the user selects Exit App...**
 the application is disconnected.
-![database setup](/screenshots/Exit_App2.png)
 
+![database setup](/screenshots/Exit_App2.png)
 
 ## :computer: Technologies Used
 
