@@ -28,7 +28,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 [:email:  Questions or Comments](#questions-or-comments)
 
 
-## :dvd: Installation <a name="installation"></a>
+## <a name="installation"></a> :dvd: Installation 
 
 * Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
 * Clone the Bamazon repository to your local computer.
@@ -53,7 +53,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Run bamazonSupervisor.js to see the supervisor view.
 
 
-## :credit_card: Customer View <a name="customer-view"></a>
+## <a name="customer-view"></a> :credit_card: Customer View 
 
 
 **When bamazonCustomer.js is first run...**
