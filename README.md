@@ -77,13 +77,48 @@ a thank you message is displayed.
 
 ## :ledger: Manager View
 
-
+**When bamazonCustomer.js is first run...**
+prompted to choose an action from a menu
+![database setup](/screenshots/Manager_Welcome.png)
+, 
+if choose view products for sale...,
+![database setup](/screenshots/View_Products_For_Sale.png) 
+if selected view low inventory...
+![database setup](/screenshots/View_Low_Inventory.png)
+if selected add to inventory...
+![database setup](/screenshots/Add_To_Inventory.png)
+if select no...., don't add units to another item, 
+![database setup](/screenshots/Do_Not_Add_Units.png)
+if selected add new product...,
+![database setup](/screenshots/Add_New_Product.png) 
+if select exit app....
+![database setup](/screenshots/Exit_App.png)
 
 
 
 ## :briefcase: Supervisor View 
 
+**When bamazonSupervisor.js is first run...**
+the user is prompted to choose from a list of actions.
 
+![database setup](/screenshots/Supervisor_Welcome.png)
+
+If the user selects View Product Sales By Dept..., 
+a table of products for sale is displayed showing the the costs and profits of each department
+
+![database setup](/screenshots/View_Product_Sales.png)
+
+If the user selects Create New Dept... 
+the user is prompted to enter the department name and department overhead cost, then the user is asked if they'd like to enter a new department. If the user types yes, they are asked for the new department information. 
+![database setup](/screenshots/Create_New_Dept.png)
+
+if the user types no...
+the user is prompted to choose from a list of actions. 
+![database setup](/screenshots/No_New_Dept.png)
+
+If the user selects Exit App...
+the application is disconnected.
+![database setup](/screenshots/Exit_App2.png)
 
 
 ## :computer: Technologies Used
