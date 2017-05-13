@@ -31,7 +31,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 * In bamazonCustomer.js, find the following code. 
 
-![database setup](/screenshots/Database_Connection)
+![database setup](/screenshots/Database_Connection.png)
 
 * Comment out the database (unless you already created it in MySQL Workbench), and enter your password, if you have one.
 * Run the code you just modified in the terminal. 
