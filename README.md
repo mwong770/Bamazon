@@ -35,7 +35,6 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 * Node.js
 * MySQL
 * MySQL Workbench
-* Sublime Text
 * Terminal/Gitbash
 * Node Modules
 	* [mysql](https://www.npmjs.com/package/mysql) 
@@ -56,7 +55,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 * In bamazonCustomer.js, find the following code. 
 
-![database setup](/screenshots/Database_Connection.png)
+![screenshot of database connection](/screenshots/Database_Connection.png)
 
 * Comment out the database (unless you already created it in MySQL Workbench), and enter your password, if you have one.
 * Run the code you just modified in the terminal. 
@@ -76,31 +75,31 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 **When bamazonCustomer.js is first run...**
 a table of all items for sale is displayed and the user is prompted to choose an item to purchase.
 
-![database setup](/screenshots/Welcome_to_Bamazon.png)
+![screenshot of bamazonCustomer](/screenshots/Welcome_to_Bamazon.png)
 
 
 **If the user selects an item id or quantity that does not exist ...**
 the user is prompted to enter the id again, enter the quantity again (if they selected 0 or less), or the number of items available is displayed and the user is prompted to try ordering again (if the quantity was greater than available).
 
-![database setup](/screenshots/Too_Much_Too_Little.png)
+![screenshot of bamazonCustomer](/screenshots/Too_Much_Too_Little.png)
 
 
 **After the user inputs purchase choices that are available...**
 the total cost is displayed and the user is asked if he/she would like to make another purchase.
 
-![database setup](/screenshots/Purchase_Item.png)
+![screenshot of bamazonCustomer](/screenshots/Purchase_Item.png)
 
 
 **If the user types yes...**
 a table of all items for sale is displayed and the user is prompted to choose another item to purchase.
 
-![database setup](/screenshots/Return_To_Items.png)
+![screenshot of bamazonCustomer](/screenshots/Return_To_Items.png)
 
 
 **If the user types no...**
 a thank you message is displayed.
 
-![database setup](/screenshots/Complete_Order.png)
+![screenshot of bamazonCustomer](/screenshots/Complete_Order.png)
 
 
 ## <a name="manager-view"></a> :ledger: Manager View 
@@ -109,43 +108,43 @@ a thank you message is displayed.
 **When bamazonManager.js is first run...**
 the user is prompted to choose from a list of actions.
 
-![database setup](/screenshots/Manager_Welcome.png)
+![screenshot of bamazonManager](/screenshots/Manager_Welcome.png)
 
  
 **If the user selects View Products For Sale...**
 a table of all products for sale with prices and quantities is displayed. Then the user is prompted to choose another action.
 
-![database setup](/screenshots/View_Products_For_Sale.png) 
+![screenshot of bamazonManager](/screenshots/View_Products_For_Sale.png) 
 
 
 **If the user selects View Low Inventory...**
 a table of all products with less than 5 items available is displayed with prices and quantities. Then the user is prompted to choose another action.
 
-![database setup](/screenshots/View_Low_Inventory.png)
+![screenshot of bamazonManager](/screenshots/View_Low_Inventory.png)
 
 
 **If the user selects Add To Inventory...**
 the user is prompted to enter the number of units to add to an item. If that item does not exist, the user is asked to enter a different item number. After adding inventory, the user is asked if her/she would like to add more inventory. If the user types yes, the user is asked to enter the number of units to add to the item. 
 
-![database setup](/screenshots/Add_To_Inventory.png)
+![screenshot of bamazonManager](/screenshots/Add_To_Inventory.png)
 
 
 **If the user types No...**
 the user is prompted to choose a new action. 
 
-![database setup](/screenshots/Do_Not_Add_Units.png)
+![screenshot of bamazonManager](/screenshots/Do_Not_Add_Units.png)
 
 
 **If the user selects Add New Product...**
 the user is prompted to enter a description of the item to add, as well as the item's department, price, and quantity. After adding the product, the user is asked if her/she would like to add another product. If the user types yes, the user is asked for the new product's information. If the user types no, the user is prompted to choose a new action.  
 
-![database setup](/screenshots/Add_New_Product.png)
+![screenshot of bamazonManager](/screenshots/Add_New_Product.png)
 
 
 **If the user selects Exit App...**
 the application is disconnected.
 
-![database setup](/screenshots/Exit_App.png)
+![screenshot of bamazonManager](/screenshots/Exit_App.png)
 
 
 ## <a name="supervisor-view"></a> :briefcase: Supervisor View 
@@ -153,31 +152,31 @@ the application is disconnected.
 **When bamazonSupervisor.js is first run...**
 the user is prompted to choose from a list of actions.
 
-![database setup](/screenshots/Supervisor_Welcome.png)
+![screenshot of bamazonSupervisor](/screenshots/Supervisor_Welcome.png)
 
 
 **If the user selects View Product Sales By Department...** 
 a table of products for sale is displayed showing the the cost and profit of each department. Then the user is prompted to choose another action. 
 
-![database setup](/screenshots/View_Product_Sales.png)
+![screenshot of bamazonSupervisor](/screenshots/View_Product_Sales.png)
 
 
 **If the user selects Create New Department...** 
 the user is prompted to enter the department name and department overhead cost, then the user is asked if he/she would like to enter a new department. If the user types yes, he/she is asked for the new department information. 
 
-![database setup](/screenshots/Create_New_Dept.png)
+![screenshot of bamazonSupervisor](/screenshots/Create_New_Dept.png)
 
 
 **If the user types no...**
 the user is prompted to choose a new action. 
 
-![database setup](/screenshots/No_New_Dept.png)
+![screenshot of bamazonSupervisor](/screenshots/No_New_Dept.png)
 
 
 **If the user selects Exit App...**
 the application is disconnected.
 
-![database setup](/screenshots/Exit_App2.png)
+![screenshot of bamazonSupervisor](/screenshots/Exit_App2.png)
 
 
 ## <a name="developer"></a> :bust_in_silhouette: Developer
