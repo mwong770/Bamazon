@@ -1,7 +1,7 @@
 
 # Bamazon
 
-A Node.js & MySQL command line application that mimics an Amazon online retailer.
+A Node.js & MySQL command line application that mimics an Amazon online retailer
 
  - Customers can make purchases. (bamazonCustomer.js)
 
