@@ -11,6 +11,8 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## Table of Contents
 
+[:computer:  Technologies Used](#technologies-used)
+
 [:dvd:  Installation](#installation)
 
 [:bar_chart:  MySQL Configuration](#mysql-configuration)
@@ -23,9 +25,24 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 [:briefcase:  Supervisor View](#supervisor-view)
 
-[:computer:  Technologies Used](#technologies-used)
+[:bust_in_silhouette:  Developer](#developer)
 
 [:email:  Questions or Comments](#questions-or-comments)
+
+
+## <a name="technologies-used"></a> :computer: Technologies Used 
+
+* Node.js
+* MySQL
+* MySQL Workbench
+* Sublime Text
+* Terminal/Gitbash
+* Node Modules
+	* [mysql](https://www.npmjs.com/package/mysql) 
+	* [prompt](https://www.npmjs.com/package/prompt)
+	* [inquirer](https://www.npmjs.com/package/inquirer) 
+	* [cli-table](https://www.npmjs.com/package/cli-table) 
+	* [colors](https://www.npmjs.com/package/colors) 
 
 
 ## <a name="installation"></a> :dvd: Installation 
@@ -163,22 +180,13 @@ the application is disconnected.
 ![database setup](/screenshots/Exit_App2.png)
 
 
-## <a name="technologies-used"></a> :computer: Technologies Used 
+## <a name="developer"></a> :bust_in_silhouette: Developer
 
-* Node.js
-* MySQL
-* MySQL Workbench
-* Sublime Text
-* Terminal/Gitbash
-* Node Modules
-	* [mysql](https://www.npmjs.com/package/mysql) 
-	* [prompt](https://www.npmjs.com/package/prompt)
-	* [inquirer](https://www.npmjs.com/package/inquirer) 
-	* [cli-table](https://www.npmjs.com/package/cli-table) 
-	* [colors](https://www.npmjs.com/package/colors) 
+* Maria Wong 
+
 
 ## <a name="questions-or-comments"></a> :email: Questions or Comments 
 
-If you have any questions or comments, feel free to message me on [LinkedIn](https://www.linkedin.com/in/maria-wong-116119113/).
+If you have any questions or comments, feel free to message me on [LinkedIn](https://www.linkedin.com/in/maria-wong/).
 
 Thanks for checking out Bamazon!

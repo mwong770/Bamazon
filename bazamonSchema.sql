@@ -8,6 +8,7 @@ CREATE TABLE products (
    departmentName VARCHAR(100),
    price DECIMAL(10,2) NOT NULL,
    stockQuantity INT DEFAULT 0,
+   productSales DECIMAL(15,2) DEFAULT 0,
    PRIMARY KEY(id)
 );
 
@@ -19,4 +20,4 @@ CREATE TABLE departments (
    primary key(deptID)
 );
 
-ALTER TABLE products ADD COLUMN productSales DECIMAL(15,2) DEFAULT 0; 
+
