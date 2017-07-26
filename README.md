@@ -65,9 +65,9 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## <a name="usage"></a> :crystal_ball: Usage 
 
-* Run bamazonCustomer.js to see the customer view.
-* Run bamazonManager.js to see the manager view.
-* Run bamazonSupervisor.js to see the supervisor view.
+* Run `node bamazonCustomer.js` to see the customer view.
+* Run `node bamazonManager.js` to see the manager view.
+* Run `node bamazonSupervisor.js` to see the supervisor view.
 
 
 ## <a name="customer-view"></a> :credit_card: Customer View 
