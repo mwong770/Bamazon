@@ -46,10 +46,12 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ## <a name="installation"></a> :dvd: Installation 
 
-* Install [Node.js](https://nodejs.org/en/download/), [MySQL](https://www.mysql.com/downloads/), and [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) if you don't have them.
+* Install [Node.js](https://nodejs.org/en/download/) and [MySQL](https://www.mysql.com/downloads/), if you don't have them.
+* Optional: You can install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/), if you don't have it.
 * Clone the Bamazon repository to your local computer.
 * On your terminal, navigate to the folder where the repository is located.
 * Run the command `npm install` to download all required dependencies.
+
 
 ## <a name="mysql-configuration"></a> :bar_chart: MySQL Configuration 
 
@@ -57,10 +59,9 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 
 ![screenshot of database connection](/screenshots/Database_Connection.png)
 
-* Comment out the database (unless you already created it in MySQL Workbench), and enter your password, if you have one.
-* Run the code you just modified in the terminal. 
-* Uncomment out the database. (You'll need to connect to the database later.)
-* Now that you are connected to MySQL Workbench, run bamazonSchema.sql to create the database and tables, then bamazonSeeds.sql to populate the tables.
+* Enter your MySQL password, if you have one.
+* To create the database and tables and then populate the tables, you can run the .sql files in the terminal by going to the Bamazon folder and typing "mysql -uroot -p < bamazonSchema.sql" and "mysql -uroot -p < bamazonSeeds.sql"), or you can run bamazonSchema.sql and bamazonSeeds.sql in MySQL Workbench.
+
 
 ## <a name="usage"></a> :crystal_ball: Usage 
 
