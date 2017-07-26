@@ -60,7 +60,7 @@ A Node.js & MySQL command line application that mimics an Amazon online retailer
 ![screenshot of database connection](/screenshots/Database_Connection.png)
 
 * Enter your MySQL password, if you have one.
-* To create the database and tables and then populate the tables, you can run the .sql files in the terminal by going to the Bamazon folder and typing "mysql -uroot -p < bamazonSchema.sql" and "mysql -uroot -p < bamazonSeeds.sql"), or you can run bamazonSchema.sql and bamazonSeeds.sql in MySQL Workbench.
+* To create the database and tables and then populate the tables, you can run the .sql files in the terminal by going to the Bamazon folder and typing `mysql -uroot -p < bamazonSchema.sql` and `mysql -uroot -p < bamazonSeeds.sql`), or you can run bamazonSchema.sql and bamazonSeeds.sql in MySQL Workbench.
 
 
 ## <a name="usage"></a> :crystal_ball: Usage 
