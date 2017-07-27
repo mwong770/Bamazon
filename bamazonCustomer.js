@@ -5,7 +5,7 @@
 //npm packages
 var mysql = require("mysql");
 //renders tables on console 
-var cliTable = require('cli-table');
+var cliTable = require("cli-table");
 //prompts command line user for info
 var prompt = require("prompt");
 //prompts command line user for info (allows confirm type, prompt yes/no validator not as appealing)
@@ -15,11 +15,11 @@ var colors = require("colors/safe");
 
 //creates the connection information for the sql database
 var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "",
-  database: "Bamazon"
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "",
+    database: "Bamazon"
 });
 
 //connects to the mysql server and sql database
@@ -37,7 +37,7 @@ function itemsAvailable() {
         console.log("\n" + colors.yellow("---------------------ITEMS FOR SALE---------------------") + "\n");
         var table = new cliTable({ head: ["ID", "Item", "Price"] });
         for (var i = 0; i < results.length; i++) {
-        	  table.push([results[i].id, results[i].productName, results[i].price.toFixed(2)]);
+        	table.push([results[i].id, results[i].productName, results[i].price.toFixed(2)]);
         }
         console.log(table.toString() + "\n");
         promptOrder();

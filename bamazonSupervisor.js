@@ -1,16 +1,16 @@
 
 var mysql = require("mysql");
-var cliTable = require('cli-table');
+var cliTable = require("cli-table");
 var prompt = require("prompt");
 var inquirer = require("inquirer");
 var colors = require("colors/safe");
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "Cr051998",
-  database: "Bamazon"
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "Cr051998",
+    database: "Bamazon"
 });
 
 connection.connect(function(err) {
@@ -36,7 +36,7 @@ function actionPrompt() {
             case "Create New Department":
                 addDept();
                 break;
-            case 'Exit App':
+            case "Exit App":
                 process.exit();
                 break;
             default:

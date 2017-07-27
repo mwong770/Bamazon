@@ -1,32 +1,32 @@
 
 var mysql = require("mysql");
-var cliTable = require('cli-table');
+var cliTable = require("cli-table");
 var prompt = require("prompt");
 var inquirer = require("inquirer");
 var colors = require("colors/safe");
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "See Notes on Bootcamp Spot",
-  database: "Bamazon"
+    host: "localhost",
+    port: 3306,
+    user: "root",
+    password: "See Notes on Bootcamp Spot",
+    database: "Bamazon"
 });
 
 connection.connect(function(err) {
-  if (err) throw err;
-  console.log("connected as id " + connection.threadId);
-  console.log(colors.rainbow("\n*******************WELCOME TO BAMAZON MANAGER VIEW!*******************\n"));
+    if (err) throw err;
+    console.log("connected as id " + connection.threadId);
+    console.log(colors.rainbow("\n*******************WELCOME TO BAMAZON MANAGER VIEW!*******************\n"));
 });
 
 //prompts user to select action
 function actionPrompt() {
     inquirer.prompt([
         {
-          name: "action",
-          message: colors.blue("What would you like to do?"),
-          type: "list",
-          choices: ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product", "Exit App"]
+            name: "action",
+            message: colors.blue("What would you like to do?"),
+            type: "list",
+            choices: ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product", "Exit App"]
         }
       ]).then(function(response) {
         switch (response.action) {
@@ -42,7 +42,7 @@ function actionPrompt() {
             case "Add New Product":
                 addProduct();
                 break;
-            case 'Exit App':
+            case "Exit App":
                 process.exit();
                 break;
             default:
